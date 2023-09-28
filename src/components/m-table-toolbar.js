@@ -1,21 +1,23 @@
 /* eslint-disable no-unused-vars */
-import Checkbox from "@mui/material/Checkbox";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import IconButton from "@mui/material/IconButton";
-import InputAdornment from "@mui/material/InputAdornment";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import TextField from "@mui/material/TextField";
-import Toolbar from "@mui/material/Toolbar";
-import Tooltip from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
-import { lighten } from "@mui/material/styles";
-import { withStyles } from "@mui/styles";
+import {
+  Checkbox,
+  IconButton,
+  InputAdornment,
+  lighten,
+  Menu,
+  MenuItem,
+  TextField,
+  Toolbar,
+  Tooltip,
+  Typography
+} from "@mui/material";
+import {withStyles} from "@mui/styles";
 import classNames from "classnames";
-import { CsvBuilder } from "filefy";
-import PropTypes, { oneOf } from "prop-types";
+import {CsvBuilder} from "filefy";
+import PropTypes from "prop-types";
 import "jspdf-autotable";
 import * as React from "react";
+
 const jsPDF = typeof window !== "undefined" ? require("jspdf").jsPDF : null;
 /* eslint-enable no-unused-vars */
 

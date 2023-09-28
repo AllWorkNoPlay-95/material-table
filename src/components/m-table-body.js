@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableRow from "@mui/material/TableRow";
+import {TableBody, TableCell, TableRow} from "@mui/material";
 import PropTypes from "prop-types";
 import * as React from "react";
+
 /* eslint-enable no-unused-vars */
 
 class MTableBody extends React.Component {

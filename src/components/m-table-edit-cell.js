@@ -1,10 +1,9 @@
 /* eslint-disable no-unused-vars */
 import * as React from "react";
 import PropTypes from "prop-types";
-import TableCell from "@mui/material/TableCell";
-import CircularProgress from "@mui/material/CircularProgress";
-import { withTheme } from "@mui/styles";
-import { MTable } from "..";
+import {CircularProgress, TableCell} from "@mui/material";
+import {withTheme} from "@mui/styles";
+
 /* eslint-enable no-unused-vars */
 
 class MTableEditCell extends React.Component {

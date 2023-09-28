@@ -1,19 +1,21 @@
 import * as React from "react";
-import TextField from "@mui/material/TextField";
-import Checkbox from "@mui/material/Checkbox";
-import Select from "@mui/material/Select";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import FormHelperText from "@mui/material/FormHelperText";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import AdapterDateFns from "@mui/lab/AdapterDateFns";
 import {
-  LocalizationProvider,
+  Checkbox,
+  FormControl,
+  FormControlLabel,
+  FormGroup,
+  FormHelperText,
+  MenuItem,
+  Select,
+  TextField
+} from "@mui/material";
+import AdapterDateFns from "@mui/x-date-pickers/AdapterDateFns";
+import {
   DatePicker,
-  TimePicker,
   DateTimePicker,
-} from "@mui/lab";
+  LocalizationProvider,
+  TimePicker,
+} from "@mui/x-date-pickers";
 import PropTypes from "prop-types";
 
 class MTableEditField extends React.Component {

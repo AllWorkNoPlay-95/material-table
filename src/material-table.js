@@ -1,16 +1,13 @@
 /* eslint-disable no-unused-vars */
-import Table from "@mui/material/Table";
-import TableFooter from "@mui/material/TableFooter";
-import TableRow from "@mui/material/TableRow";
-import LinearProgress from "@mui/material/LinearProgress";
+import {LinearProgress, Table, TableFooter, TableRow} from "@mui/material";
 import DoubleScrollbar from "react-double-scrollbar";
 import * as React from "react";
-import { MTablePagination, MTableSteppedPagination } from "./components";
-import { DragDropContext, Droppable } from "react-beautiful-dnd";
+import {MTablePagination, MTableSteppedPagination} from "./components";
+import {DragDropContext, Droppable} from "react-beautiful-dnd";
 import DataManager from "./utils/data-manager";
-import { debounce } from "debounce";
+import {debounce} from "debounce";
 import equal from "fast-deep-equal";
-import { withStyles } from "@mui/styles";
+import {withStyles} from "@mui/styles";
 import * as CommonValues from "./utils/common-values";
 
 /* eslint-enable no-unused-vars */
