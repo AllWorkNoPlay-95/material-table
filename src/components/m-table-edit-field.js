@@ -9,7 +9,7 @@ import {
   Select,
   TextField
 } from "@mui/material";
-import AdapterDateFns from "@mui/x-date-pickers/AdapterDateFns";
+import {AdapterDateFns} from "@mui/x-date-pickers/AdapterDateFns";
 import {
   DatePicker,
   DateTimePicker,
