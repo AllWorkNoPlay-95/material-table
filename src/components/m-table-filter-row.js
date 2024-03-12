@@ -15,7 +15,7 @@ import {
     TextField,
     Tooltip
 } from "@mui/material";
-import {AdapterDateFns} from "@mui/x-date-pickers/AdapterDateFns";
+import {AdapterDateFns} from "@mui/x-date-pickers/AdapterDateFnsV3";
 import {
     DatePicker,
     DateTimePicker,
