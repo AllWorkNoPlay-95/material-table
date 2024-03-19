@@ -2,7 +2,7 @@
 import * as React from "react";
 import {TableCell} from "@mui/material";
 import PropTypes from "prop-types";
-import parseISO from "date-fns/parseISO";
+import { parseISO } from "date-fns/parseISO";
 import * as CommonValues from "../utils/common-values";
 
 /* eslint-enable no-unused-vars */
